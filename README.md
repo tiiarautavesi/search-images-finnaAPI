@@ -7,7 +7,9 @@ This App is written with react.
 Structure:
 
 App (App)
+
  |
  |___ FetchData (fetch-data)
+ 
           |
           |___ ImageClass (image-module)
