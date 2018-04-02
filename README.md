@@ -10,4 +10,4 @@ Structure:
  |
  |___ FetchData (fetch-data)
           |
-          |___ ImageClass (image-module)
+          |___ ImageClass (image-module)`
