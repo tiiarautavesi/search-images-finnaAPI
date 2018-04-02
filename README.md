@@ -6,10 +6,8 @@ This App is written with react.
 
 Structure:
 
-App (App)
-
+`App (App)
  |
  |___ FetchData (fetch-data)
- 
           |
           |___ ImageClass (image-module)
