@@ -2,7 +2,6 @@ import React, {
   Component
 } from 'react';
 import './App.css';
-import kirkko from './kirkko.svg';
 import FetchData from './fetch-data.js';
 
 class App extends Component {
@@ -27,7 +26,6 @@ class App extends Component {
           <h1 className="App-title"> 
             Etsi kuvia Helsingistä
           </h1> 
-          <img className="icon" alt="tuomiokirkko" src={kirkko} />
         </header> 
         
         <FetchData changeTitle={this.changeTitle.bind(this)} title={this.state.title} />
