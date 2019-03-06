@@ -10,12 +10,12 @@ var image = "";
 class FetchData extends Component {
 
   constructor(props){
-        super(props);
-        this.state = {
-            isLoading: true,
-            images: []
-        }
+    super(props);
+    this.state = {
+      isLoading: true,
+      images: []
     }
+  }
   
   handleChange(e) {
     searchWord = e.target.value;
@@ -62,7 +62,7 @@ class FetchData extends Component {
       
         <input value={this.props.title} onChange={this.handleChange.bind(this)} onClick={this.emptyField}/>
           
-        <div className="btn btn-sm btn-danger" onClick={(e) => {this.getImages(searchWord);}}>
+        <div className="btn" onClick={(e) => {this.getImages(searchWord);}}>
           Etsi
         </div>
 

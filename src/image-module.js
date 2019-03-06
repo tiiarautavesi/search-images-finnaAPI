@@ -3,13 +3,6 @@ import './App.css';
 
 class ImageClass extends React.Component {
 
-    constructor(props){
-        super(props)
-        this.state = {
-            isExpanded: false
-        }
-    }
-
     render(){
         const {url, alt, children} = this.props;
         return (
